@@ -1,0 +1,30 @@
+header{
+    background-color: rgba(21, 10, 1, 0.212);
+    border-bottom: 1px solid #989393;
+}
+
+.header__wrap {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100px;
+}
+
+header nav a{
+    font-size: 16px;
+    line-height: 22px;
+    color: #ffffff;
+    font-family: "Museo Sans Cyrl";
+    transition: all .3s ease-in-out;
+    text-decoration: none;
+    border-bottom: 1px solid transparent;
+}
+
+header nav{
+    display: flex;
+    column-gap: 50px;
+}
+header nav a:hover{
+    color: #b1b1b1;
+    border-bottom: 1px solid #989393;
+}
